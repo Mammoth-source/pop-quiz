@@ -18,6 +18,8 @@ basic.forever(function () {
     Answer = variable1 * Variable2
     basic.showString("If you click button A, your answer will be" + Answer)
     basic.showString("If you click button B, your answer will be" + Random)
+})
+basic.forever(function () {
     if (UserAnswer == Answer) {
         basic.showIcon(IconNames.Yes)
     } else {
